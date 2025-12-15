@@ -68,4 +68,65 @@ Users are advised to consult a licensed medical professional if symptoms persist
 ## 🚀 Live Demo
 
 👉 *(Add your Vercel deployment link here)*  
-Example:
+
+---
+
+## 📁 Project Structure
+
+
+
+src/
+├── app/
+│ ├── api/predict/route.ts
+│ └── page.tsx
+├── data/
+│ ├── symptoms.ts
+│ ├── diseases.ts
+│ └── mappings.ts
+└── lib/
+└── predictor.ts
+
+
+---
+
+## 🧪 Local Setup
+
+```bash
+git clone https://github.com/your-username/symptom-disease-predictor.git
+cd symptom-disease-predictor
+npm install
+npm run dev
+
+
+Open:
+
+http://localhost:3000
+
+📈 Future Enhancements
+
+Age and severity-based weighting
+
+Confidence percentage visualization
+
+Larger symptom and disease dataset
+
+Dark/light theme toggle
+
+👨‍💻 Author
+
+Kartik
+B.Tech CSE Student
+VIT Bhopal
+
+
+---
+
+## FINAL STEPS (Don’t Skip)
+1. Create a file called **`README.md`** in project root  
+2. Paste this content  
+3. Replace the **Live Demo link** with your Vercel URL  
+4. Run:
+```bash
+git add README.md
+git commit -m "Add project README"
+git push
