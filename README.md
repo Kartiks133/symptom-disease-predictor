@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 Symptom to Disease Predictor
 
-## Getting Started
+A full-stack web application that predicts possible diseases based on user-selected symptoms and provides general medication and nutrition suggestions.  
+Built with modern web technologies and deployed on Vercel.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Problem Statement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+People often struggle to understand what a combination of symptoms might indicate and what basic steps they can take before consulting a medical professional.  
+This project aims to provide **informational, non-diagnostic guidance** by mapping symptoms to possible conditions and suggesting general care options.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Features
 
-## Learn More
+- Select multiple symptoms through an intuitive UI
+- Predicts top possible diseases using rule-based logic
+- Suggests **general (non-prescription) medications**
+- Provides nutrition and dietary recommendations
+- Dark-themed, responsive, and user-friendly interface
+- Deployed on Vercel for easy access
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Frontend**
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+**Backend**
+- Next.js API Routes (Serverless)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Deployment**
+- Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ How It Works
+
+1. The user selects symptoms from a predefined list.
+2. Each symptom maps to one or more diseases using a rule-based mapping.
+3. Diseases are scored based on symptom overlap.
+4. The top matching diseases are returned with:
+   - Confidence score
+   - General medication suggestions
+   - Nutrition advice
+5. Results are displayed in a clean, dark-themed UI.
+
+This approach ensures the system is:
+- Explainable
+- Lightweight
+- Suitable for serverless deployment
+
+---
+
+## ⚠️ Disclaimer
+
+This application is intended **for informational purposes only**.  
+It is **not a substitute for professional medical advice, diagnosis, or treatment**.  
+Users are advised to consult a licensed medical professional if symptoms persist or worsen.
+
+---
+
+## 🚀 Live Demo
+
+👉 *(Add your Vercel deployment link here)*  
+Example:
