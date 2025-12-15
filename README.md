@@ -1,54 +1,54 @@
 # 🩺 Symptom to Disease Predictor
 
-A full-stack web application that predicts possible diseases based on user-selected symptoms and provides general medication and nutrition suggestions.  
-Built with modern web technologies and deployed on Vercel.
+A full-stack web application that predicts possible diseases based on user-selected symptoms and provides general medication and nutrition recommendations.  
+The project is designed for informational use and is deployed live on Vercel.
 
 ---
 
 ## 📌 Problem Statement
 
-People often struggle to understand what a combination of symptoms might indicate and what basic steps they can take before consulting a medical professional.  
-This project aims to provide **informational, non-diagnostic guidance** by mapping symptoms to possible conditions and suggesting general care options.
+Many individuals find it difficult to interpret what a combination of symptoms may indicate and what basic steps they can take before seeking medical attention.  
+This project addresses that gap by offering **non-diagnostic, informational guidance** through symptom-based disease prediction and general care suggestions.
 
 ---
 
 ## 🎯 Features
 
-- Select multiple symptoms through an intuitive UI
-- Predicts top possible diseases using rule-based logic
-- Suggests **general (non-prescription) medications**
-- Provides nutrition and dietary recommendations
-- Dark-themed, responsive, and user-friendly interface
-- Deployed on Vercel for easy access
+- Multi-symptom selection through an intuitive user interface  
+- Prediction of possible diseases using rule-based logic  
+- Suggestions for **general, non-prescription medications**  
+- Nutrition and dietary recommendations for supportive care  
+- Fully responsive dark-themed UI  
+- Live deployment on Vercel  
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 - Next.js (App Router)
 - React
 - TypeScript
 - Tailwind CSS
 
-**Backend**
+### Backend
 - Next.js API Routes (Serverless)
 
-**Deployment**
+### Deployment
 - Vercel
 
 ---
 
 ## ⚙️ How It Works
 
-1. The user selects symptoms from a predefined list.
-2. Each symptom maps to one or more diseases using a rule-based mapping.
+1. Users select symptoms from a predefined list.
+2. Each symptom maps to one or more possible diseases.
 3. Diseases are scored based on symptom overlap.
-4. The top matching diseases are returned with:
-   - Confidence score
+4. The top matching conditions are returned along with:
+   - A confidence score
    - General medication suggestions
-   - Nutrition advice
-5. Results are displayed in a clean, dark-themed UI.
+   - Nutrition recommendations
+5. Results are displayed in a clean, dark-themed interface.
 
 This approach ensures the system is:
 - Explainable
@@ -60,24 +60,25 @@ This approach ensures the system is:
 ## ⚠️ Disclaimer
 
 This application is intended **for informational purposes only**.  
-It is **not a substitute for professional medical advice, diagnosis, or treatment**.  
-Users are advised to consult a licensed medical professional if symptoms persist or worsen.
+It does **not** provide medical diagnosis or treatment advice.  
+Users should consult a licensed medical professional if symptoms persist or worsen.
 
 ---
 
 ## 🚀 Live Demo
 
-👉 [*(Add your Vercel deployment link here)](https://symptom-disease-predictor.vercel.app/)
+👉 **Live Application:**  
+https://symptom-disease-predictor.vercel.app/
 
 ---
 
 ## 📁 Project Structure
 
-
-
 src/
 ├── app/
-│ ├── api/predict/route.ts
+│ ├── api/
+│ │ └── predict/
+│ │ └── route.ts
 │ └── page.tsx
 ├── data/
 │ ├── symptoms.ts
@@ -91,26 +92,28 @@ src/
 
 ## 🧪 Local Setup
 
+Clone the repository and run the project locally:
+
+```bash
 git clone https://github.com/Kartiks133/symptom-disease-predictor.git
 cd symptom-disease-predictor
 npm install
 npm run dev
-Open:
 http://localhost:3000
 
----
-📈 Future Enhancements-
 
-*Age and severity-based weighting
-*Confidence percentage visualization
-*Larger symptom and disease dataset
-*Dark/light theme toggle
+📈 Future Enhancements
+
+Age and severity-based weighting
+
+Confidence percentage visualization
+
+Expanded symptom and disease dataset
+
+Dark / light theme toggle
 
 👨‍💻 Author
 
 Kartik Shrivastava
 B.Tech CSE Student
 VIT Bhopal
-
-
-
