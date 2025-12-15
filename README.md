@@ -67,7 +67,7 @@ Users are advised to consult a licensed medical professional if symptoms persist
 
 ## 🚀 Live Demo
 
-👉 *(Add your Vercel deployment link here)*  
+👉 [*(Add your Vercel deployment link here)](https://symptom-disease-predictor.vercel.app/)
 
 ---
 
@@ -91,30 +91,24 @@ src/
 
 ## 🧪 Local Setup
 
-```bash
-git clone https://github.com/your-username/symptom-disease-predictor.git
+git clone https://github.com/Kartiks133/symptom-disease-predictor.git
 cd symptom-disease-predictor
 npm install
 npm run dev
-
-
 Open:
-
 http://localhost:3000
 
-📈 Future Enhancements
+---
+📈 Future Enhancements-
 
-Age and severity-based weighting
-
-Confidence percentage visualization
-
-Larger symptom and disease dataset
-
-Dark/light theme toggle
+*Age and severity-based weighting
+*Confidence percentage visualization
+*Larger symptom and disease dataset
+*Dark/light theme toggle
 
 👨‍💻 Author
 
-Kartik
+Kartik Shrivastava
 B.Tech CSE Student
 VIT Bhopal
 
