@@ -119,14 +119,4 @@ B.Tech CSE Student
 VIT Bhopal
 
 
----
 
-## FINAL STEPS (Don’t Skip)
-1. Create a file called **`README.md`** in project root  
-2. Paste this content  
-3. Replace the **Live Demo link** with your Vercel URL  
-4. Run:
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
